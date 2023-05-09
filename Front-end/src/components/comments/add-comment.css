@@ -1,0 +1,33 @@
+.add-comment {
+    margin: 30px 0;
+    color: rgb(220, 220, 226);
+}
+
+.add-comment-input {
+    width: 100%;
+    font-size: 21px;
+    border: 5px;
+   background-color: #4d3a4b;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #9893ad;
+    border-radius: 10px;
+}
+
+.add-comment-btn {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-size: 18px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+
+}
+.mybtn-comment{
+width: 100%;
+background: linear-gradient(to bottom right, #472845, #9893ad);
+height: 40px;
+border-radius: 10px;
+color:rgb(200, 198, 198)
+}

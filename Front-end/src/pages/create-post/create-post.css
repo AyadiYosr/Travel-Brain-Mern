@@ -1,0 +1,206 @@
+
+/* Media Queries */
+@media (max-width: 820px) {
+    .create-post-form {
+        width: 100%;
+        
+    }
+}
+.row-header {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    background-color: #564d5b;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+   
+ 
+  }
+  
+  
+
+
+.input{
+    margin-left: 200px;
+  
+}
+.form-control {
+  background-color: #f2f2f2; /* set background color */
+  color: #000; /* set font color */
+  border: 2px solid #ddd; /* set border color */
+}
+
+
+.ql-editor {
+    min-height: 200px;
+    border: 1px solid #9c9898;
+    border-radius: 5px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #b7b7b7;
+    padding: 10px;
+    background-color: #4b4848;
+  }
+
+  
+  .ql-toolbar {
+    border: none;
+    border-radius: 5px;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #e8dfdf;
+    background-color: #909194;
+  }
+
+
+  .selectinput option {
+    background-color: #fff; /* set background color */
+    color: #000; /* set font color */
+    width: 300px;
+  }
+  
+  .selectinput {
+    background-color: #7e0202; /* set background color */
+    color: #000; /* set font color */
+    border: 2px solid #878484; /* set border color */
+  }
+  
+  .bg-secondary {
+ margin-top: 5px;
+  }
+  
+  .gradient-button {
+    background-image: linear-gradient(to right, #4A2841 0%, #455060  51%, #2E2552  100%);
+    border: none;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    transition: background-position 0.3s;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gradient-button::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    transition: width 0.3s ease-out, height 0.3s ease-out, opacity 0.3s ease-out;
+  }
+  
+  .gradient-button:hover {
+    background-position: right center;
+  }
+  
+  .gradient-button:hover::before {
+    width: 200px;
+    height: 200px;
+    opacity: 1;
+  }
+  .custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .custom-file-input::before {
+    content: 'Choose file';
+    display: inline-block;
+    background: linear-gradient(to right, #515253, #5c5d5e);
+    color: white;
+    padding: 8px 12px;
+    outline: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  .custom-file-input:hover::before {
+    background: linear-gradient(to right, #5c5d60, #4d4e4f);
+  }
+  .custom-file-input:active::before {
+    transform: translateY(1px);
+  }
+  .custom-file-label {
+    margin-top: 8px;
+    font-size: 14px;
+  }
+  h3 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    color: #a7aea7;
+  }
+  
+  .create-post-form {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 55%;
+    padding: 10px;
+    background: linear-gradient(to bottom right, #5d2d76, #666666);
+
+    color: white;
+    z-index: 999;
+  }
+  
+  .create-post-form select,
+  .create-post-form textarea,
+  .create-post-form input[type="file"] {
+    width: 100%;
+    background-color: #716375;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .create-post-form select:focus,
+  .create-post-form textarea:focus,
+  .create-post-form input[type="file"]:focus {
+    outline: none;
+  }
+  
+  .create-post-form input[type="file"] {
+    padding-top: 15px;
+  }
+  
+  .gradient-button {
+    background-color: #565956;
+    background-image: linear-gradient(-45deg, #878a88, #424447);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .gradient-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .right-pos{
+    background-color: #2E2552;
+    width: 100%;
+  }
+  .tessst{
+    flex-direction: column;
+    display: flex;
+   
+  }

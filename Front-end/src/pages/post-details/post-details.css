@@ -1,0 +1,133 @@
+.post-details {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.post-details-header {
+    display: flex;
+    align-items: center;
+  }
+  .post-details-title {
+    margin-right: 1rem;
+  }
+
+  .post-details-user {
+    display: flex;
+    margin-left: 0px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+  }
+  .user-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+   
+  }
+  .user-name {
+    display: flex;
+    align-items: center;
+  }
+  .user-name strong {
+    margin-right: 10px;
+  }
+
+ 
+.post-details-user-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+.post-details-title {
+    text-align: center;
+    font-size: 40px;
+     color: rgb(179, 174, 174);
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+
+.post-details-user-image {
+    width: 50%;
+    height: 100%;
+    padding-left: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-details-user {
+    margin-top: 10px;
+}
+
+.post-details-user strong {
+    font-size: 21px;
+    color: rgb(179, 174, 174);
+}
+
+.post-details-user span {
+    font-weight: 500;
+    font-size: 14px;
+    color: rgb(179, 174, 174);
+}
+
+.post-details-description {
+    font-size: 21px;
+    margin-right: 10px;
+    line-height: 1.8;
+    color: rgb(179, 174, 174);
+}
+
+.post-details-icon-wrapper {
+    margin: 15px 0;
+    font-size: 27px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e5dfe4;
+}
+
+.post-details-icon-wrapper i {
+    cursor: pointer;
+}
+
+.post-details-info-write{
+    font-size: 17px;
+   color: grey;
+}
+
+/* Media Query */
+@media (max-width: 820px) {
+    .post-details {
+        flex-direction: column;
+    }
+    
+    .post-details-user-info {
+        width: 100%;
+    }
+}  
+.damn{
+    background-color: azure;
+}
+.glass-container {
+    background: linear-gradient(to bottom right, #472845, #282146);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    padding: 20px;
+  }
+ 
+
+  .post-details-image-wrapper {
+    width: 100%;
+        height: 100%;
+  overflow: hidden;
+  }
+.text-name{
+   color: rgb(107, 108, 108);
+}
+.likes{
+    color: #bab8c1;
+    
+}
